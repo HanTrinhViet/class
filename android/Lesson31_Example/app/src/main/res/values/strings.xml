@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lesson3.1_Example</string>
+    <string name="btn_text_start_new_activity">Start new activity</string>
+</resources>
