@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab-01</string>
+    <string name="button_str_add">ADD</string>
+    <string name="edit_text_str_full_name">Họ và tên</string>
+    <string name="edit_text_str_phone_number">Số điện thoại</string>
+    <string name="radio_button_str_female">Nữ</string>
+    <string name="radio_button_str_male">Nam</string>
+</resources>
