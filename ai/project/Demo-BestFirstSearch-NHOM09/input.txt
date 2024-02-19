@@ -1,0 +1,24 @@
+===> HƯỚNG DẪN NHẬP DỮ LIỆU
+===> Bước 1: Mỗi đỉnh tương ứng với các đỉnh kề, nhập trên nhiều dòng đỉnh và các đỉnh kề tương ứng từ trái qua phải:
+===>         Định dạng:
+===>             ĐỈNH_1 TRỌNG_SỐ - ĐỈNH_ĐẦU_KỀ_VỚI_ĐỈNH_1 TRỌNG_SỐ,ĐỈNH_KẾ_TIẾP_KỀ_VỚI_ĐỈNH_1 TRỌNG_SỐ,...
+===>             ĐỈNH_2 TRỌNG_SỐ - ĐỈNH_ĐẦU_KỀ_VỚI_ĐỈNH_2 TRỌNG_SỐ,ĐỈNH_KẾ_TIẾP_KỀ_VỚI_ĐỈNH_2 TRỌNG_SỐ,...
+===>         Ví dụ:
+===>             A20 - C15, D6, E7
+                 C15 - F10
+                 D6 - F10, I8
+===> Bước 2: Sau khi nhập xong bước 1, nhập trên 1 dòng trạng thái đầu và trạng thái kết thúc(tức điểm bắt đầu và điểm kết thúc):
+===>         Định dạng:
+===>             ĐỈNH_BẮT_ĐẦU TRỌNG_SỐ -> ĐỈNH_KẾT_THÚC TRỌNG_SỐ
+===>         Ví dụ:
+===>             A20 -> B0
+===> Bước 3: Thực hiện nhập ngay dưới sau dòng này
+A20 - C15, D6, E7
+C15 - F10
+D6 - F10, I8
+E7 - K12, G5
+F10 - B0
+I8 - B0, G5
+G5 - H3, B0
+H3 - B0
+A20 -> B0

@@ -1,0 +1,23 @@
+===> HƯỚNG DẪN NHẬP DỮ LIỆU
+===> Bước 1: Mỗi đỉnh tương ứng với các đỉnh kề, nhập trên nhiều dòng đỉnh và các đỉnh kề tương ứng từ trái qua phải:
+===>         Định dạng:
+===>             ĐỈNH_1 - ĐỈNH_ĐẦU_KỀ_VỚI_ĐỈNH_1,ĐỈNH_KẾ_TIẾP_KỀ_VỚI_ĐỈNH_1,...
+===>             ĐỈNH_2 - ĐỈNH_ĐẦU_KỀ_VỚI_ĐỈNH_2,ĐỈNH_KẾ_TIẾP_KỀ_VỚI_ĐỈNH_2,...
+===>         Ví dụ:
+===>             A - B,C,D
+===>             B - I,G
+===>             C - E,F
+===> Bước 2: Sau khi nhập xong bước 1, nhập trên 1 dòng trạng thái đầu và trạng thái kết thúc(tức điểm bắt đầu và điểm kết thúc):
+===>         Định dạng:
+===>             ĐỈNH_BẮT_ĐẦU -> ĐỈNH_KẾT_THÚC
+===>         Ví dụ:
+===>             A -> G
+===> Bước 3: Thực hiện nhập ngay dưới sau dòng này
+A - B,C,D
+B - I,G
+C - E,F
+D - C,F
+I - G
+E - G,K
+F - K
+A -> G
