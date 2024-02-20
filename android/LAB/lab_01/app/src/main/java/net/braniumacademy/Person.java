@@ -2,19 +2,25 @@ package net.braniumacademy;
 
 import androidx.annotation.NonNull;
 
+/**
+ * Person class to present data of person
+ */
 public class Person {
     private String fullName;
     private String phoneNumber;
     private String gender;
+    private String hobby;
     private String homeTown;
 
     public Person() {
     }
 
-    public Person(String fullName, String phoneNumber, String gender, String homeTown) {
+
+    public Person(String fullName, String phoneNumber, String gender, String hobby, String homeTown) {
         this.fullName = fullName;
         this.phoneNumber = phoneNumber;
         this.gender = gender;
+        this.hobby = hobby;
         this.homeTown = homeTown;
     }
 
@@ -50,9 +56,17 @@ public class Person {
         this.homeTown = homeTown;
     }
 
+    public String getHobby() {
+        return hobby;
+    }
+
+    public void setHobby(String hobby) {
+        this.hobby = hobby;
+    }
+
     @NonNull
     @Override
     public String toString() {
-        return fullName + " - " + phoneNumber + " - "  + gender + " - " + homeTown;
+        return fullName + " - " + phoneNumber + " - "  + gender + " - " + homeTown + " - " + hobby;
     }
 }

@@ -1,6 +1,9 @@
 package net.braniumacademy;
 
-public enum HomeTown {
+/**
+ * Enum class present some province in Viet Nam
+ */
+public enum Province {
     HA_NAM("Hà Nam"),
     HA_NOI("Hà Nội"),
     HAI_DUONG("Hải Dương"),
@@ -8,7 +11,7 @@ public enum HomeTown {
 
     private final String value;
 
-    HomeTown(String value) {
+    Province(String value) {
         this.value = value;
     }
 

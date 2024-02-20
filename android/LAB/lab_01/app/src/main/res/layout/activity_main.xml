@@ -59,11 +59,11 @@
         android:id="@+id/spn_hometown"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rdo_grp_gender" />
+        app:layout_constraintTop_toBottomOf="@+id/check_box_hobby_movie" />
 
     <Button
         android:id="@+id/btn_add_info"
@@ -72,18 +72,62 @@
         android:layout_marginTop="10dp"
         android:text="Thêm thông tin"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spn_hometown" />
+        app:layout_constraintTop_toBottomOf="@+id/img_vw_person_avatar_show" />
 
     <ListView
         android:id="@+id/lst_vw_info"
         android:layout_width="match_parent"
-        android:layout_height="407dp"
+        android:layout_height="230dp"
         android:layout_marginTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_add_info" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_add_info"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <CheckBox
+        android:id="@+id/check_box_hobby_soccer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Bóng đá"
+        app:layout_constraintEnd_toStartOf="@+id/check_box_hobby_movie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rdo_grp_gender" />
+
+    <CheckBox
+        android:id="@+id/check_box_hobby_movie"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Xem phim"
+        app:layout_constraintEnd_toEndOf="@+id/rdo_grp_gender"
+        app:layout_constraintStart_toStartOf="@+id/rdo_grp_gender"
+        app:layout_constraintTop_toBottomOf="@+id/rdo_grp_gender" />
+
+    <CheckBox
+        android:id="@+id/check_box_hobby_badminton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Cầu lông"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/check_box_hobby_movie"
+        app:layout_constraintTop_toBottomOf="@+id/rdo_grp_gender" />
+
+    <ImageView
+        android:id="@+id/img_vw_person_avatar_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spn_hometown"
+        tools:srcCompat="@tools:sample/avatars" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
