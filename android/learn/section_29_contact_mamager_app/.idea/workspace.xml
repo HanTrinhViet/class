@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.ContactManager</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59a62fc5-e5ee-458b-9e7b-f2c23927faca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../section_20_service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/androidTest/java/com/example/musicplayerapp/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/java/com/example/musicplayerapp/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/java/com/example/musicplayerapp/MyCustomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/app/src/test/java/com/example/musicplayerapp/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_20_service/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/app/src/main/java/com/example/fragmentapp/FirstFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/app/src/main/java/com/example/fragmentapp/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/app/src/main/java/com/example/fragmentapp/SecondFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section_21_FragmentApp/app/src/main/res/layout/fragment_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/contactmanager/ContactDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/contactmanager/ContactDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/contactmanager/Contacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/contactmanager/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../software/project/ demo-fizz-buzz/before/fizzbuzz-kata/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/src/main/java/com/example/fizzbuzz/FizzBuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/after/fizzbuzz-kata/src/test/java/com/example/fizzbuzz/FizzBuzzTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/before/fizzbuzz-kata/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/before/fizzbuzz-kata/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/before/fizzbuzz-kata/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/before/fizzbuzz-kata/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/before/fizzbuzz-kata/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/before/fizzbuzz-kata/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/before/fizzbuzz-kata/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/before/fizzbuzz-kata/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/before/fizzbuzz-kata/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/before/fizzbuzz-kata/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/before/fizzbuzz-kata/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/02/demos/before/fizzbuzz-kata/src/test/java/com/example/fizzbuzz/FizzBuzzTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip03/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip03/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip03/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip03/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip03/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip03/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip03/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip03/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip03/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip03/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip03/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip04/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip05/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/src/main/java/com/example/demo/util/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip06/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/main/java/com/example/demo/util/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip07/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/main/java/com/example/demo/util/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip08/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/main/java/com/example/demo/util/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/after/clip09/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip03/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip03/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip03/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip03/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip03/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip03/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip03/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip03/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip03/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip03/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip04/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip04/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip04/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip04/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip04/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip04/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip04/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip04/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip04/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip04/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip04/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip05/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip06/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/src/main/java/com/example/demo/util/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip07/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/main/java/com/example/demo/util/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip08/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/main/java/com/example/demo/util/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip09/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/03/demos/before/clip10 (final)/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip02/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip03/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip04/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip05/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip06/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip07/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip08/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/after/clip09 (final)/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip02/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip03/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip04/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip05/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip06/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip07/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip08/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/04/demos/before/clip09/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/test/java/com/example/demo/repository/TicketRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip02/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/repository/TicketFilterRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/repository/impl/TicketFilterRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/test/java/com/example/demo/repository/TicketRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/after/clip03 (final repository)/src/test/resources/filterTestData.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/test/java/com/example/demo/repository/TicketRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip02/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/test/java/com/example/demo/repository/TicketRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip03/src/test/resources/filterTestData.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/TicketApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/controller/exception/ControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/dto/TicketDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/dto/TicketFilterDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/exception/AgentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/exception/InvalidDateRangeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/exception/InvalidTicketStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/exception/MissingDescriptionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/exception/MissingResolutionSummaryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/exception/TicketNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/model/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/repository/AgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/repository/TicketFilterRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/repository/impl/TicketFilterRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/java/com/example/demo/util/ErrorMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/test/java/com/example/demo/TicketApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/test/java/com/example/demo/controller/TicketControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/test/java/com/example/demo/repository/TicketRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/test/java/com/example/demo/service/TicketServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/test/resources/filterTestData.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../software/project/tdd-spring-6-junit/05/demos/before/clip04/src/test/resources/integrationTestData.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/viethantrinh/.android/avd/Pixel_3a_API_34_extension_level_7_arm64-v8a.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2cI9Xyu6aiANZKrfWUQvoWkXY1E" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="ContactManager.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59a62fc5-e5ee-458b-9e7b-f2c23927faca" name="Changes" comment="" />
+      <created>1707788268782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707788268782</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
