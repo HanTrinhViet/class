@@ -51,7 +51,7 @@ public class MyCustomAdapter extends ArrayAdapter<Contact> {
             myViewHolder.name =(TextView) convertView.findViewById(R.id.name);
             myViewHolder.phone =(TextView) convertView.findViewById(R.id.phone);
             myViewHolder.imageView = (ImageView) convertView.findViewById(R.id.imageView);
-
+            convertView.setTag(myViewHolder);
         }else {
             myViewHolder = (MyViewHolder) convertView.getTag();
         }

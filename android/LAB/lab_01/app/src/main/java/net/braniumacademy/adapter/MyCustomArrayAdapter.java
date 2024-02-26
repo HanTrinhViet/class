@@ -1,6 +1,7 @@
 package net.braniumacademy.adapter;
 
 import android.content.Context;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,7 +47,7 @@ public class MyCustomArrayAdapter extends ArrayAdapter<Person> {
             viewHolder = (ViewHolder) convertView.getTag();
         }
 
-        viewHolder.imgVwPersonAvatar.setImageResource(R.mipmap.ic_avatar_foreground);
+        viewHolder.imgVwPersonAvatar.setImageURI(Uri.parse(person.getImageUri()));
         viewHolder.txtVwPersonInfo.setText(person.toString());
 
         return convertView;

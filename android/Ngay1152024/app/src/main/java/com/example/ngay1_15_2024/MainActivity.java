@@ -1,58 +1,58 @@
 package com.example.ngay1_15_2024;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
-import android.annotation.SuppressLint;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.CompoundButton;
 import android.widget.ListView;
-import android.widget.ProgressBar;
-import android.widget.Switch;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn;
-    ListView listView;
-
-    ArrayList<Contact> arrayList;
-
-    int process = 0;
+    Button btnAdd;
+    ListView lstVwContact;
+    ArrayList<Contact> contactList;
+    MyCustomAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn = findViewById(R.id.button);
-        listView = findViewById(R.id.listView);
+        btnAdd = findViewById(R.id.button);
+        lstVwContact = findViewById(R.id.listView);
 
-        Contact c1 = new Contact(1, R.drawable.anh_1, "Rose 1", "0123456789");
-        Contact c2 = new Contact(2, R.drawable.anh_2, "Rose 2", "0123456789");
-        Contact c3 = new Contact(3, R.drawable.anh_3, "Rose 3", "0123456789");
+        Contact c1 = new Contact(R.drawable.anh_1, "Rose 1", "0123456789");
+        Contact c2 = new Contact(R.drawable.anh_2, "Rose 2", "0123456789");
+        Contact c3 = new Contact(R.drawable.anh_3, "Rose 3", "0123456789");
 
-        arrayList = new ArrayList<>();
+        contactList = new ArrayList<>();
 
-        arrayList.add(c1);
-        arrayList.add(c2);
-        arrayList.add(c3);
+        contactList.add(c1);
+        contactList.add(c2);
+        contactList.add(c3);
 
 //        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, courses);
 
-        MyCustomAdapter adapter = new MyCustomAdapter(arrayList, getApplicationContext());
-        listView.setAdapter(adapter);
+        adapter = new MyCustomAdapter(contactList, getApplicationContext());
+        lstVwContact.setAdapter(adapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        lstVwContact.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(getApplicationContext(),
@@ -62,11 +62,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), SubActivity.class);
                 startActivityForResult(intent, 100);
+            }
+        });
+
+        lstVwContact.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
             }
         });
     }
@@ -75,18 +82,41 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         Bundle b = data.getExtras();
-        String id = null;
-        String name = b.getString("name");
-        String phone = b.getString("phone");
-        Contact contact = new Contact(3, name, phone);
+        String name = b.getString("Name");
+        String phone = b.getString("Phone");
+        Contact contact = new Contact(R.drawable.anh_1, name, phone);
         if (requestCode == 100 && resultCode == 150) {
-            // add
-            // adapter.notifyDataSetChanged();
+            contactList.add(contact);
+            adapter.notifyDataSetChanged();
         }
 
         if (requestCode == 200 && resultCode == 150) {
-             // update
+
+//            arrayList.set()
         }
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = new MenuInflater(this);
+        menuInflater.inflate(R.menu.actionmenu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == R.id.mnu_sort_by_name) {
+            Toast.makeText(this, "Sort By Name", Toast.LENGTH_SHORT).show();
+        }
+
+        if (item.getItemId() == R.id.mnu_sort_by_phone) {
+            Toast.makeText(this, "Sort by phone", Toast.LENGTH_SHORT).show();
+        }
+
+        if (item.getItemId() == R.id.mnu_broadcast) {
+            Toast.makeText(this, "Broadcast", Toast.LENGTH_SHORT).show();
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

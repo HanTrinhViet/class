@@ -1,6 +1,9 @@
 package net.braniumacademy;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -12,7 +15,13 @@ import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import net.braniumacademy.adapter.MyCustomArrayAdapter;
 
@@ -34,8 +43,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Spinner spnHometown;
     ImageView imgVwPersonAvatarShow;
     Button btnAddInfo;
+    FloatingActionButton btnAddImage;
     ListView lstVwInfo;
     List<Person> personList = new ArrayList<>();
+    ActivityResultLauncher<Intent> resultLauncher;
+    String imagePath = "";
 
 
     @Override
@@ -51,21 +63,44 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spnHometown = findViewById(R.id.spn_hometown);
         imgVwPersonAvatarShow = findViewById(R.id.img_vw_person_avatar_show);
         btnAddInfo = findViewById(R.id.btn_add_info);
+        btnAddImage = findViewById(R.id.btn_add_image);
         lstVwInfo = findViewById(R.id.lst_vw_info);
 
         imgVwPersonAvatarShow.setImageResource(R.mipmap.ic_avatar_foreground);
-        if (personList.isEmpty()) {
-            personList.addAll(
-                    List.of(
-                            new Person("Tru"),
-                            new Person(),
-                            new Person()
-                    )
-            );
-        }
+        registerResult();
+//        if (personList.isEmpty()) {
+//            personList.addAll(
+//                    List.of(
+//                            new Person("Tru"),
+//                            new Person(),
+//                            new Person()
+//                    )
+//            );
+//        }
 
         // Add item to spinner
         configSpinner(spnHometown);
+
+        btnAddInfo.setOnClickListener(this);
+        btnAddImage.setOnClickListener(this);
+    }
+
+    public void registerResult() {
+        resultLauncher = registerForActivityResult(
+                new ActivityResultContracts.StartActivityForResult(), new ActivityResultCallback<ActivityResult>() {
+                    @Override
+                    public void onActivityResult(ActivityResult result) {
+                        try {
+                            Uri imageUri = result.getData().getData();
+                            imagePath = imageUri.toString();
+                            imgVwPersonAvatarShow.setImageURI(imageUri);
+
+                        } catch (Exception e) {
+                            Toast.makeText(MainActivity.this, "No Image Selected", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                }
+        );
     }
 
     /**
@@ -88,7 +123,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         );
 
         spnHometown.setAdapter(adapter);
-        btnAddInfo.setOnClickListener(this);
     }
 
     @Override
@@ -103,7 +137,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(this, "Vui lòng nhập đủ dữ liệu!", Toast.LENGTH_SHORT).show();
                 return;
             }
-            Person person = new Person(fullName, phoneNumber, gender, hobbies, hometown);
+            Person person = new Person(fullName, phoneNumber, gender, hobbies, hometown, imagePath);
             personList.add(person);
             /* -- Using ArrayAdapter
             ArrayAdapter<Person> personArrayAdapter = new ArrayAdapter<>(
@@ -123,6 +157,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             MyCustomArrayAdapter myCustomArrayAdapter = new MyCustomArrayAdapter(personList, this);
             lstVwInfo.setAdapter(myCustomArrayAdapter);
 
+        } else if (v.getId() == R.id.btn_add_image) {
+            Intent intent = new Intent(MediaStore.ACTION_PICK_IMAGES);
+            resultLauncher.launch(intent);
         }
     }
 

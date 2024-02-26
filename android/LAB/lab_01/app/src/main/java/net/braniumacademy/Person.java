@@ -11,6 +11,7 @@ public class Person {
     private String gender;
     private String hobby;
     private String homeTown;
+    private String imageUri;
 
     public Person() {
     }
@@ -22,6 +23,15 @@ public class Person {
         this.gender = gender;
         this.hobby = hobby;
         this.homeTown = homeTown;
+    }
+
+    public Person(String fullName, String phoneNumber, String gender, String hobby, String homeTown, String imageUri) {
+        this.fullName = fullName;
+        this.phoneNumber = phoneNumber;
+        this.gender = gender;
+        this.hobby = hobby;
+        this.homeTown = homeTown;
+        this.imageUri = imageUri;
     }
 
     public String getFullName() {
@@ -62,6 +72,14 @@ public class Person {
 
     public void setHobby(String hobby) {
         this.hobby = hobby;
+    }
+
+    public String getImageUri() {
+        return imageUri;
+    }
+
+    public void setImageUri(String imageUri) {
+        this.imageUri = imageUri;
     }
 
     @NonNull
