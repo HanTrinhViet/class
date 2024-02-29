@@ -12,7 +12,7 @@ import static java.lang.StringTemplate.STR;
  * @apiNote NHÓM 09
  * @implNote Tìm đường đi ngắn nhất trên đồ thị có trọng số sử dụng thuật toán Best First Search
  */
-public class NHOM_09_BEST_FIRST_SEARCH {
+public class NHOM_09_A_STAR_SEARCH {
     private static final Map<Node, List<Node>> nodeMap = new HashMap<>();
     private static final StringBuilder table =
             new StringBuilder("\t\t%-7s%-17s%-17s\n".formatted("PTTT", "Trạng thái kề", "Danh sách L"));
@@ -146,7 +146,7 @@ public class NHOM_09_BEST_FIRST_SEARCH {
     }
 
     /**
-     * Lớp Node để chứa đỉnh và trọng số tương ứng
+     * Lớp Node để chứa đỉnh, trọng số  tương ứng
      */
     private static class Node {
         public String top;
@@ -162,12 +162,12 @@ public class NHOM_09_BEST_FIRST_SEARCH {
             if (this == o) return true;
             if (o == null || getClass() != o.getClass()) return false;
             Node node = (Node) o;
-            return Objects.equals(top, node.top);
+            return weight == node.weight && Objects.equals(top, node.top);
         }
 
         @Override
         public int hashCode() {
-            return Objects.hash(top);
+            return Objects.hash(top, weight);
         }
 
         @Override
