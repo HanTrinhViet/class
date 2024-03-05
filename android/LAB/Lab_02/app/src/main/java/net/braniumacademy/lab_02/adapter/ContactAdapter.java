@@ -4,15 +4,14 @@ import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CheckBox;
-import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
 import net.braniumacademy.lab_02.R;
+import net.braniumacademy.lab_02.databinding.ItemContactLayoutBinding;
 import net.braniumacademy.lab_02.model.Contact;
 
 import java.util.List;
@@ -28,16 +27,27 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_contact_layout, parent, false);
-        return new ViewHolder(view);
+        ItemContactLayoutBinding itemContactLayoutBinding = DataBindingUtil.inflate(
+                LayoutInflater.from(parent.getContext()),
+                R.layout.item_contact_layout,
+                parent,
+                false
+        );
+
+        return new ViewHolder(itemContactLayoutBinding);
+//        return new ViewHolder(in);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Contact contact = contacts.get(position);
-        holder.tvContactName.setText(contact.getName());
-        holder.tvContactPhoneNumber.setText(contact.getPhoneNumber());
-        holder.ivContactImage.setImageURI(Uri.parse(contact.getImageUri()));
-        holder.checkBoxContactStatus.setChecked(contact.getStatus());
+
+        holder.itemContactLayoutBinding.setContact(contact);
+        holder.itemContactLayoutBinding.ivContactImage.setImageURI(Uri.parse(contact.getImageUri()));
+        holder.itemContactLayoutBinding.tvContactName.setText(contact.getName());
+        holder.itemContactLayoutBinding.tvContactNumber.setText(contact.getPhoneNumber());
+        holder.itemContactLayoutBinding.checkBoxContactStatus.setChecked(contact.getStatus());
+
     }
 
     @Override
@@ -46,19 +56,13 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
     }
 
 
-    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
-        CheckBox checkBoxContactStatus;
-        TextView tvContactName;
-        TextView tvContactPhoneNumber;
-        ImageView ivContactImage;
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+        ItemContactLayoutBinding itemContactLayoutBinding;
 
-        public ViewHolder(@NonNull View itemView) {
-            super(itemView);
-            checkBoxContactStatus = itemView.findViewById(R.id.check_box_contact_status);
-            tvContactName = itemView.findViewById(R.id.tv_contact_name);
-            tvContactPhoneNumber = itemView.findViewById(R.id.tv_contact_number);
-            ivContactImage = itemView.findViewById(R.id.iv_contact_image);
-            checkBoxContactStatus.setOnClickListener(this);
+        public ViewHolder(ItemContactLayoutBinding itemContactLayoutBinding) {
+            super(itemContactLayoutBinding.getRoot());
+            this.itemContactLayoutBinding = itemContactLayoutBinding;
+            itemContactLayoutBinding.ivContactImage.setOnClickListener(this);
             itemView.setOnClickListener(this);
         }
 
@@ -67,7 +71,7 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
             if (v.getId() == R.id.check_box_contact_status) {
                 Contact currentContact = contacts.get(getAdapterPosition());
                 Toast.makeText(itemView.getContext(), "Position: " + getAdapterPosition(), Toast.LENGTH_SHORT).show();
-                currentContact.setStatus(checkBoxContactStatus.isChecked());
+                currentContact.setStatus(itemContactLayoutBinding.checkBoxContactStatus.isChecked());
             } else if (v.getId() == itemView.getId()) {
                 Toast.makeText(itemView.getContext(), "Position: " + getAdapterPosition(), Toast.LENGTH_SHORT).show();
             }
