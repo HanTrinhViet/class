@@ -7,7 +7,7 @@ import net.braniumacademy.onclass.BR;
 
 public class Contact extends BaseObservable {
     private static int autoId = 1000;
-    private String id;
+    private int id;
     private String name;
     private String number;
     private String imagePath;
@@ -15,7 +15,7 @@ public class Contact extends BaseObservable {
     public Contact() {
     }
 
-    public Contact(String id, String name, String number, String imagePath) {
+    public Contact(int id, String name, String number, String imagePath) {
         setId(id);
         this.name = name;
         this.number = number;
@@ -23,12 +23,12 @@ public class Contact extends BaseObservable {
     }
 
     @Bindable
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = (id == null || id.isEmpty() ? "CONTACT" + autoId : id);
+    public void setId(int id) {
+        this.id = (id == 0 ? autoId++ : id);
         notifyPropertyChanged(BR.id);
     }
 

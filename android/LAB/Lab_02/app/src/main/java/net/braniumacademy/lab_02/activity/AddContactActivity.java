@@ -42,6 +42,7 @@ public class AddContactActivity extends AppCompatActivity {
             String contactName = activityAddContactBinding.etAddContactName.getText().toString();
             String contactNumber = activityAddContactBinding.etAddContactName.getText().toString();
             String contactImagePath = imagePath;
+            boolean contactIsEnabled = activityAddContactBinding.checkBoxAddContact.isChecked();
 
             if (contactName.isEmpty() || contactNumber.isEmpty() || contactImagePath.isEmpty()) {
                 Toast.makeText(this, "Các trường không được để trống", Toast.LENGTH_SHORT).show();
@@ -50,6 +51,7 @@ public class AddContactActivity extends AppCompatActivity {
                 bundle.putString("contact_image_path", contactImagePath);
                 bundle.putString("contact_name", contactName);
                 bundle.putString("contact_number", contactNumber);
+                bundle.putBoolean("contact_is_enabled", contactIsEnabled);
 
                 intent.putExtras(bundle);
                 setResult(150, intent);

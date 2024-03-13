@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             String imageUri = bundle.getString("contact_image_path");
             String name = bundle.getString("contact_name");
             String phoneNumber = bundle.getString("contact_number");
-            boolean status = true;
+            boolean status = bundle.getBoolean("contact_is_enabled");
             if (requestCode == 100 && resultCode == 150) {
                 Contact newContact = new Contact(name, phoneNumber, status, imageUri);
                 contactList.add(newContact);

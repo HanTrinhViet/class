@@ -19,6 +19,7 @@ import android.widget.Toast;
 import net.braniumacademy.onclass.R;
 import net.braniumacademy.onclass.adapter.ContactAdapter;
 import net.braniumacademy.onclass.databinding.ActivityMainBinding;
+import net.braniumacademy.onclass.db.MyDB;
 import net.braniumacademy.onclass.model.Contact;
 
 import java.util.ArrayList;
@@ -29,12 +30,20 @@ public class MainActivity extends AppCompatActivity {
     private ContactAdapter contactAdapter;
     private List<Contact> contactList = new ArrayList<>();
     private static int index = -1;
+    private MyDB myDB;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        myDB = new MyDB(this, "ContactDB", null, 1);
+//        myDB.addContact(new Contact(0, "Trinh Han", "098988899", "img1"));
+//        myDB.addContact(new Contact(0, "Trinh Hang", "098988899", "img2"));
+//        myDB.addContact(new Contact(0, "Trinh An", "098988899", "img3"));
+//        myDB.addContact(new Contact(0, "Trinh Toan", "098988899", "img4"));
+        contactList = myDB.getAllContacts();
 
         mainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         contactAdapter = new ContactAdapter(this, contactList);
@@ -59,13 +68,12 @@ public class MainActivity extends AppCompatActivity {
             String contact_image_path = bundle.getString("contact_image_path");
             String contact_name = bundle.getString("contact_name");
             String contact_number = bundle.getString("contact_number");
-
+            Contact newContact = new Contact(0, contact_name, contact_number, contact_image_path);
             if (requestCode == 100 && resultCode == 150) {
-                Contact newContact = new Contact(null, contact_name, contact_number, contact_image_path);
                 contactList.add(newContact);
+                myDB.addContact(newContact);
                 contactAdapter.notifyDataSetChanged();
             } else if (requestCode == 200 && resultCode == 150) {
-                Contact newContact = new Contact(null, contact_name, contact_number, contact_image_path);
                 contactList.set(ContactAdapter.index, newContact);
                 contactAdapter.notifyDataSetChanged();
             }
