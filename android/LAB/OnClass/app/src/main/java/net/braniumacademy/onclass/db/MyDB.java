@@ -8,8 +8,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-import com.google.android.material.tabs.TabLayout;
-
 import net.braniumacademy.onclass.model.Contact;
 
 import java.util.ArrayList;
@@ -46,10 +44,28 @@ public class MyDB extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put(Id, contact.getId());
-        values.put(Image, contact.getImagePath());
+        values.put(Image, contact.getImage());
         values.put(Name, contact.getName());
         values.put(Phone, contact.getNumber());
         db.insert(TableName, null, values);
+        db.close();
+    }
+
+    public void updateContact(int id, Contact contact) {
+        SQLiteDatabase db = getWritableDatabase();
+        ContentValues value = new ContentValues();
+        value.put(Id, contact.getId());
+        value.put(Image, contact.getImage());
+        value.put(Name, contact.getName());
+        value.put(Phone, contact.getImage());
+        db.update(TableName, value, Id + "=?", new String[]{String.valueOf(id)});
+        db.close();
+    }
+
+    public void deleteContact(int id) {
+        SQLiteDatabase db = getWritableDatabase();
+        String sql = "Delete From " + TableName + " Where ID=" + id;
+        db.execSQL(sql);
         db.close();
     }
 
