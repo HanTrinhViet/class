@@ -1,0 +1,8 @@
+﻿  Elgamal.cpp
+D:\Ky2Nam3\ATBMTT\Code\RSA ElGamal\MatMaElGamal\MatMaElGamal\Elgamal.cpp(39,9): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+D:\Ky2Nam3\ATBMTT\Code\RSA ElGamal\MatMaElGamal\MatMaElGamal\Elgamal.cpp(43,8): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+D:\Ky2Nam3\ATBMTT\Code\RSA ElGamal\MatMaElGamal\MatMaElGamal\Elgamal.cpp(44,9): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+D:\Ky2Nam3\ATBMTT\Code\RSA ElGamal\MatMaElGamal\MatMaElGamal\Elgamal.cpp(45,9): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+D:\Ky2Nam3\ATBMTT\Code\RSA ElGamal\MatMaElGamal\MatMaElGamal\Elgamal.cpp(47,9): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+D:\Ky2Nam3\ATBMTT\Code\RSA ElGamal\MatMaElGamal\MatMaElGamal\Elgamal.cpp(48,9): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  MatMaElGamal.vcxproj -> D:\Ky2Nam3\ATBMTT\Code\RSA ElGamal\MatMaElGamal\x64\Debug\MatMaElGamal.exe
