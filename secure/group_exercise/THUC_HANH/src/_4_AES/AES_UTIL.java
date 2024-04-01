@@ -2,7 +2,6 @@ package _4_AES;
 
 import com.google.common.base.Splitter;
 
-
 public class AES_UTIL {
     public static final int MATRIX_SIZE = 4;
     public static final String[][] S_BOX = new String[][]{
@@ -22,6 +21,12 @@ public class AES_UTIL {
             {"70", "3e", "b5", "66", "48", "03", "f6", "0e", "61", "35", "57", "b9", "86", "c1", "1d", "9e"},
             {"e1", "f8", "98", "11", "69", "d9", "8e", "94", "9b", "1e", "87", "e9", "ce", "55", "28", "df"},
             {"8c", "a1", "89", "0d", "bf", "e6", "42", "68", "41", "99", "2d", "0f", "b0", "54", "bb", "16"},
+    };
+    public static final String[][] FIXED_MATRIX = new String[][]{
+            {"02", "03", "01", "01"},
+            {"01", "02", "03", "01"},
+            {"01", "01", "02", "03"},
+            {"03", "01", "01", "02"},
     };
     public static final String[] RC = {"01", "02", "04", "08", "10", "20", "40", "80", "1B", "36"};
     public static String M = "B104AADD3AC293DF787EFD2CF8065925";
@@ -59,6 +64,120 @@ public class AES_UTIL {
 
     public static int fromHexStringToInt(String value) {
         return Integer.parseInt(value, 16);
+    }
+
+    public static String fromHexToBinary(String hex) {
+        String bin = "";
+        String binFragment = "";
+        int iHex;
+        hex = hex.trim();
+        hex = hex.replaceFirst("0x", "");
+
+        for (int i = 0; i < hex.length(); i++) {
+            iHex = Integer.parseInt("" + hex.charAt(i), 16);
+            binFragment = Integer.toBinaryString(iHex);
+
+            while (binFragment.length() < 4) {
+                binFragment = "0" + binFragment;
+            }
+            bin += binFragment;
+        }
+        return bin;
+    }
+
+    public static String fromBinaryToHex(String binary) {
+        StringBuilder hex = new StringBuilder();
+
+        for (int i = 0; i < 8; i += 4) {
+            String chunk = binary.substring(i, i + 4);
+            int decimal = Integer.parseInt(chunk, 2);
+            String hexDigit = Integer.toHexString(decimal).toUpperCase();
+            hex.append(hexDigit);
+        }
+        return hex.toString();
+    }
+
+    public static String binaryXOR(String bin1, String bin2) {
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < 8; i++) {
+            char bit1 = bin1.charAt(i);
+            char bit2 = bin2.charAt(i);
+
+            // XOR logic
+            if (bit1 != bit2) {
+                result.append('1');
+            } else {
+                result.append('0');
+            }
+        }
+        return result.toString();
+    }
+
+    // nhân 2 số nhị phân
+    public static String multiplyBinary(String binary1, String binary2) {
+        int num1 = Integer.parseInt(binary1, 2);
+        int num2 = Integer.parseInt(binary2, 2);
+
+        int result = num1 * num2;
+
+        String binaryResult = Integer.toBinaryString(result);
+
+        while (binaryResult.length() < binary1.length()) {
+            binaryResult = "0" + binaryResult;
+        }
+        return binaryResult;
+    }
+
+
+    public static String checkMixColumns(String check1, String check2) {
+        String binaryCheck = fromHexToBinary(check2);
+        if (check1.equals("01")) {
+            return check2;
+        } else if (check1.equals("02")) {
+            String hexCheck;
+            if (binaryCheck.startsWith("1")) {
+                hexCheck = binaryCheckStart(binaryCheck);
+            } else {
+                String hexCheckBinary = multiplyBinary(binaryCheck, "00000010");
+                hexCheck = fromBinaryToHex(hexCheckBinary);
+            }
+            return hexCheck;
+        }else if (check1.equals("03")) {
+            // 03 = 02 XOR 01
+            String check1_02;
+            if (binaryCheck.startsWith("1")) {
+                // bỏ số 1 ở đầu
+                String trimmedString = binaryCheck.substring(1);
+                // Thêm số 0 vào cuối
+                String finalString = trimmedString + "0";
+                check1_02 = binaryXOR(finalString, "00011011");
+            } else {
+                check1_02 = multiplyBinary(binaryCheck, "00000010");
+            }
+            String hexCheck = fromBinaryToHex(binaryXOR(check1_02, binaryCheck));
+            return hexCheck;
+        } else if (binaryCheck.startsWith("1")) {
+            // bỏ số 1 ở đầu
+            String trimmedString = binaryCheck.substring(1);
+            // Thêm số 0 vào cuối
+            String finalString = trimmedString + "0";
+
+            String hextCheck2 = fromBinaryToHex(binaryXOR(finalString, "00011011"));
+            return hextCheck2;
+        }
+        return null;
+    }
+
+
+    private static String binaryCheckStart(String binaryCheck) {
+        // bỏ số 1 ở đầu
+        String trimmedString = binaryCheck.substring(1);
+        // Thêm số 0 vào cuối
+        String finalString = trimmedString + "0";
+
+        String hextCheck2 = fromBinaryToHex(binaryXOR(finalString, "00011011"));
+        return hextCheck2;
     }
 
     public static String findNewSBoxHex(String hex) {

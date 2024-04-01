@@ -2,10 +2,10 @@ package _4_AES;
 
 import java.util.Arrays;
 
-import static net.braniumtech.AES_UTIL.*;
+import static _4_AES.AES_UTIL.*;
+
 
 public class AES_GEN_KEY {
-
     public static void main(String[] args) {
         for (int i = 0; i < K.length - 1; i++) {
             K[i + 1] = genKey(i);
@@ -13,7 +13,7 @@ public class AES_GEN_KEY {
         System.out.println(Arrays.toString(K));
     }
 
-    private static String genKey(int i) {
+    public static String genKey(int i) {
         StringBuilder key = new StringBuilder();
         var word_matrix = divideKey(K[i]);
         var rot_w = rotWord(word_matrix);
@@ -97,6 +97,4 @@ public class AES_GEN_KEY {
         }
         return next_word_matrix;
     }
-
-
 }
