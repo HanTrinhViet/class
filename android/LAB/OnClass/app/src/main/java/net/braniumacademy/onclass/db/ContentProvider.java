@@ -60,16 +60,16 @@ public class ContentProvider {
     }
 
     public void updateContact(Contact contact) {
-        String[] selectionArgs = {contact.getName()};
-        ContentResolver contentResolver = activity.getContentResolver();
-        Cursor cursor = contentResolver.query(ContactsContract.Contacts.CONTENT_URI,
-                null, ContactsContract.Contacts.DISPLAY_NAME + " = ?", selectionArgs, null);
-        ContentValues contentValues = new ContentValues();
-        while (cursor.moveToNext()) {
-            @SuppressLint("Range") String lookupKey = cursor.getString(cursor.getColumnIndex(ContactsContract.Contacts.LOOKUP_KEY));
-            Uri uri = Uri.withAppendedPath(ContactsContract.Contacts.CONTENT_LOOKUP_URI, lookupKey);
-            contentResolver.update(uri, null, null);
-        }
+//        String[] selectionArgs = {contact.getName()};
+//        ContentResolver contentResolver = activity.getContentResolver();
+//        Cursor cursor = contentResolver.query(ContactsContract.Contacts.CONTENT_URI,
+//                null, ContactsContract.Contacts.DISPLAY_NAME + " = ?", selectionArgs, null);
+//        ContentValues contentValues = new ContentValues();
+//        while (cursor.moveToNext()) {
+//            @SuppressLint("Range") String lookupKey = cursor.getString(cursor.getColumnIndex(ContactsContract.Contacts.LOOKUP_KEY));
+//            Uri uri = Uri.withAppendedPath(ContactsContract.Contacts.CONTENT_LOOKUP_URI, lookupKey);
+//            contentResolver.update(uri, null, null);
+//        }
     }
 
     public void deleteContactById(Contact contact) {

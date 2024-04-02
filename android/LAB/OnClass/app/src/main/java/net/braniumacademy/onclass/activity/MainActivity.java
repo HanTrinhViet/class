@@ -4,7 +4,9 @@ import static net.braniumacademy.onclass.constants.Constants.contactList;
 import static net.braniumacademy.onclass.constants.Constants.contact_position;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.text.Editable;
@@ -27,6 +29,7 @@ import net.braniumacademy.onclass.adapter.ContactAdapter;
 import net.braniumacademy.onclass.databinding.ActivityMainBinding;
 import net.braniumacademy.onclass.db.MyDB;
 import net.braniumacademy.onclass.model.Contact;
+import net.braniumacademy.onclass.receiver.ConnectionReceiver;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -34,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
     private ContactAdapter contactAdapter;
     private MyDB myDB;
     private ContentProvider contentProvider;
+    private ConnectionReceiver connectionReceiver;
+    private IntentFilter intentFilter;
 
 
     @Override
@@ -44,6 +49,12 @@ public class MainActivity extends AppCompatActivity {
         registerForContextMenu(binding.recycleViewContact);
         showContactFromContentProvider();
         handleEventListener();
+
+        connectionReceiver = new ConnectionReceiver();
+        intentFilter = new IntentFilter("net.braniumacademy.onclass.SOME_ACTION");
+        intentFilter.addAction("net.braniumacademy.onclass.CONNECTIVITY_CHANGE");
+        intentFilter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED);
+        registerReceiver(connectionReceiver, intentFilter);
     }
 
     private void handleEventListener() {
@@ -156,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (item.getItemId() == 2) {
 
         } else if (item.getItemId() == 3) {
-
+//            sendBroadcast(...);
 
         }
         return super.onContextItemSelected(item);
