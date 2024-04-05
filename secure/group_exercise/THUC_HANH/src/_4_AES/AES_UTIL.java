@@ -143,7 +143,7 @@ public class AES_UTIL {
                 hexCheck = fromBinaryToHex(hexCheckBinary);
             }
             return hexCheck;
-        }else if (check1.equals("03")) {
+        } else if (check1.equals("03")) {
             // 03 = 02 XOR 01
             String check1_02;
             if (binaryCheck.startsWith("1")) {

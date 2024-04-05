@@ -39,7 +39,7 @@ public class Vigenere_lap {
     }
 
     public static void main(String[] args) {
-        String plaintext = "HONESTYISTHEBE";
+        String plaintext = "HPNHTXYJSWIIBF";
         String key = "ABADBE";
 
         // Encrypt
@@ -47,7 +47,7 @@ public class Vigenere_lap {
         System.out.println("Encrypted: " + encryptedText);
 
         // Decrypt
-        String decryptedText = decrypt(encryptedText, key);
+        String decryptedText = decrypt(plaintext, key);
         System.out.println("Decrypted: " + decryptedText);
     }
 }
