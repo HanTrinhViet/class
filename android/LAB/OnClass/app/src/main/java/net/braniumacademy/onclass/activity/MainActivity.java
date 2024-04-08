@@ -32,7 +32,7 @@ import net.braniumacademy.onclass.model.Contact;
 import net.braniumacademy.onclass.receiver.ConnectionReceiver;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements OnOptionItemSelected {
     private ActivityMainBinding binding;
     private ContactAdapter contactAdapter;
     private MyDB myDB;
@@ -49,12 +49,6 @@ public class MainActivity extends AppCompatActivity {
         registerForContextMenu(binding.recycleViewContact);
         showContactFromContentProvider();
         handleEventListener();
-
-        connectionReceiver = new ConnectionReceiver();
-        intentFilter = new IntentFilter("net.braniumacademy.onclass.SOME_ACTION");
-        intentFilter.addAction("net.braniumacademy.onclass.CONNECTIVITY_CHANGE");
-        intentFilter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED);
-        registerReceiver(connectionReceiver, intentFilter);
     }
 
     private void handleEventListener() {
@@ -80,6 +74,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        connectionReceiver = new ConnectionReceiver();
+        intentFilter = new IntentFilter("net.braniumacademy.onclass.SOME_ACTION");
+        intentFilter.addAction("net.braniumacademy.onclass.CONNECTIVITY_CHANGE");
+        intentFilter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED);
+        registerReceiver(connectionReceiver, intentFilter, RECEIVER_EXPORTED);
+
     }
 
     private void showContactFromContentProvider() {
@@ -169,6 +170,20 @@ public class MainActivity extends AppCompatActivity {
         } else if (item.getItemId() == 3) {
 //            sendBroadcast(...);
 
+        }
+        return super.onContextItemSelected(item);
+    }
+
+
+    @Override
+    public boolean onOptionItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == R.id.mnu_sort_by_name) {
+            Toast.makeText(this, "Sort by name", Toast.LENGTH_SHORT).show();
+        } else if (item.getItemId() == R.id.mnu_sort_by_phone) {
+
+        } else if (item.getItemId() == R.id.mnu_broadcast) {
+            Intent intent = new Intent("com.example.OnClass.SOME_ACTION");
+            sendBroadcast(intent);
         }
         return super.onContextItemSelected(item);
     }

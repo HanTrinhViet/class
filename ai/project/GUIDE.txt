@@ -1,0 +1,11 @@
+============ HƯỚNG DẪN CHẠY CODE BẰNG SOURCE CODE UNITY ============
+B1: tải file PongGame_CODE.rar về và giải nén
+B2: tải và cài Unity, bao gồm có Unity Editor và Unity Hub (link tải: https://unity.com/download)
+B3: sau khi cài đặt xong, mở Unity Hub và đăng nhập sau đó kích hoạt license
+B4: add project chính là file rar đã giải nén vào trong Unity Hub
+B5: sau khi add mở lên thôi là vào Unity Editor
+
+
+============ HƯỚNG DẪN CHẠY GAME BẰNG FILE EXE ============
+B1: tải file PongGame_GAME.rar về và giải nén
+B2: bấm vào file tên là PongGame.exe và chơi =)))

@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.provider.Settings;
 import android.widget.Toast;
 
 public class ConnectionReceiver extends BroadcastReceiver {
@@ -38,7 +39,8 @@ public class ConnectionReceiver extends BroadcastReceiver {
         }
     }
 
-    private boolean isAirPlaneModeOn(Context applicationContext) {
-        return false;
+    private boolean isAirPlaneModeOn(Context context) {
+        return Settings.System.getInt(context.getContentResolver(),
+                Settings.Global.AIRPLANE_MODE_ON, 0) != 0;
     }
 }
