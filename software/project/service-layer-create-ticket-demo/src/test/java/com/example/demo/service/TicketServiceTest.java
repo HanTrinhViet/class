@@ -1,0 +1,51 @@
+package com.example.demo.service;
+
+import com.example.demo.dto.TicketDto;
+import com.example.demo.model.Ticket;
+import com.example.demo.repository.TicketRepository;
+import com.example.demo.service.impl.TicketServiceImpl;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.time.LocalDateTime;
+
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.*;
+
+@ExtendWith(MockitoExtension.class)
+public class TicketServiceTest {
+
+    private TicketService ticketService;
+
+    @Mock
+    private TicketRepository ticketRepository;
+
+    @BeforeEach
+    void setup() {
+        ticketService = new TicketServiceImpl(ticketRepository);
+    }
+
+    @Test
+    void givenTicketDetails_whenTicketIsCreated_thenCallsRepositorySave() {
+        TicketDto ticketDto = new TicketDto(null, "description");
+
+        when(ticketRepository.save(any(Ticket.class)))
+                .thenReturn(new Ticket(1L, "description"));
+
+        TicketDto createdTicket = ticketService.createTicket(ticketDto);
+
+        assertNotNull(createdTicket);
+        assertEquals(1L, createdTicket.id());
+        assertEquals("description", createdTicket.description());
+
+        verify(ticketRepository, times(1)).save(any(Ticket.class));
+    }
+
+
+}
