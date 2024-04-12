@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 import static java.lang.StringTemplate.STR;
 
+
 /**
  * @author Trịnh Viết Hân
  * @apiNote NHÓM 09
@@ -16,6 +17,7 @@ public class NHOM_09_BEST_FIRST_SEARCH {
     private static final Map<Node, List<Node>> nodeMap = new HashMap<>();
     private static final StringBuilder table =
             new StringBuilder("\t\t%-7s%-17s%-17s\n".formatted("PTTT", "Trạng thái kề", "Danh sách L"));
+
 
     public static void main(String[] args) {
         // Tạo đối tượng của lớp Scanner và gán bằng null
@@ -53,6 +55,22 @@ public class NHOM_09_BEST_FIRST_SEARCH {
                     }
                 }
 
+                if (!line.contains("-") && !line.contains("->")) {
+                    String symbol = line.substring(0, 1);
+                    var lists = new ArrayList<Node>();
+                    var keys = nodeMap.entrySet().stream().toList();
+                    var values = nodeMap.values().stream().toList();
+
+
+                    for (List<Node> list : values) {
+                        for (Node node : list) {
+                            if (symbol.equals(node.top)) {
+                                System.err.println("Đỉnh trùng rồi !" + line);
+                            }
+                        }
+                    }
+                }
+
 
                 // Kiểm tra để đọc vào trạng thái bắt đầu và trạng thái kết thúc
                 if (line.contains("-") && line.contains(">")) {
@@ -68,24 +86,29 @@ public class NHOM_09_BEST_FIRST_SEARCH {
                     // Tạo đối tượng của PrintWriter để ghi dữ liệu ra file 'output.txt'
                     PrintWriter out = new PrintWriter(new FileWriter("output.txt"));
 
-                    // Hiển thị ra file 'output.txt' trạng thái đầu và trạng thái kết thúc
-                    out.println("\t\t====> YỀU CẦU ĐẦU VÀO");
-                    out.println(STR."\t\tTrạng thái đầu: \{startNode}");
-                    out.println(STR."\t\tTrạng thái kết thúc: \{endNode}");
+                    if (!shortestPaths.isEmpty()) {
+                        // Hiển thị ra file 'output.txt' trạng thái đầu và trạng thái kết thúc
+                        out.println("\t\t====> YỀU CẦU ĐẦU VÀO");
+                        out.println(STR."\t\tTrạng thái đầu: \{startNode}");
+                        out.println(STR."\t\tTrạng thái kết thúc: \{endNode}");
 
-                    // Hiển thị ra file 'output.txt' bảng liệt kê trạng thái
-                    out.println("\n\t\t===> BẢNG LIỆT KÊ TRẠNG THÁI");
-                    out.println(table);
+                        // Hiển thị ra file 'output.txt' bảng liệt kê trạng thái
+                        out.println("\n\t\t===> BẢNG LIỆT KÊ TRẠNG THÁI");
+                        out.println(table);
 
-                    // Hiển thị ra file 'output.txt' đường đi từ trạng thái bắt đầu đến trạng thái kết thúc
-                    out.println("\t\t===> KẾT QUẢ");
-                    out.print("\t\t");
-                    for (Node node : shortestPaths) {
-                        out.print(STR."\{node}");
-                        if (!node.equals(shortestPaths.getLast())) {
-                            out.print(" --> ");
+                        // Hiển thị ra file 'output.txt' đường đi từ trạng thái bắt đầu đến trạng thái kết thúc
+                        out.println("\t\t===> KẾT QUẢ");
+                        out.print("\t\t");
+                        for (Node node : shortestPaths) {
+                            out.print(STR."\{node}");
+                            if (!node.equals(shortestPaths.getLast())) {
+                                out.print(" --> ");
+                            }
                         }
+                    } else {
+                        out.println("==> Lỗi không tìm được đường đi ngắn nhất! Vui lòng xem lại input! <==");
                     }
+
                     out.close(); // Đóng lại luồng ghi file
                 }
             }

@@ -30,6 +30,7 @@ class TicketRepositoryTest {
                 .build();
 
         Ticket createdTicket = ticketRepo.save(ticket);
+
         assertNotNull(createdTicket);
         assertEquals(createdTicket.getId(), 1L);
         assertEquals(createdTicket.getDescription(), "ticket number 1");

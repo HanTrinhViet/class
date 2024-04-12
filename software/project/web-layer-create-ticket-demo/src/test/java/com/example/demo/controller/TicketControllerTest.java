@@ -15,6 +15,7 @@ import static org.hamcrest.Matchers.is;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -42,6 +43,7 @@ public class TicketControllerTest {
                         .content(objectMapper.writeValueAsString(ticketDto)))
                 .andExpect(status().isCreated())
                 .andExpect(jsonPath("$.description", is(ticketDescription)))
-                .andExpect(jsonPath("$.status", is(Status.NEW.name())));
+                .andExpect(jsonPath("$.status", is(Status.NEW.name())))
+                .andDo(print());
     }
 }
